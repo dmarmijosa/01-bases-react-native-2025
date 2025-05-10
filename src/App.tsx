@@ -1,13 +1,14 @@
-import "./App.css";
+import Counter from "./components/Counter";
 
 function App() {
   return (
-    <>
-      <h1 className="text-3xl font-bold underline">React + TS</h1>
+    <div className="flex flex-col justify-center items-center h-svh">
+      <h1 className="text-4xl mb-5">React + TS</h1>
       {/* <BasicTypes /> */}
       {/* <ObjectLiterals /> */}
       {/* <BasicFunctions /> */}
-    </>
+      <Counter />
+    </div>
   );
 }
 
