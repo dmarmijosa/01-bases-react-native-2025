@@ -1,16 +1,14 @@
-import './App.css'
-import BasicFunctions from './typescript/BasicFunctions'
+import "./App.css";
 
 function App() {
-
   return (
     <>
-      <h1>React + TS</h1>
+      <h1 className="text-3xl font-bold underline">React + TS</h1>
       {/* <BasicTypes /> */}
       {/* <ObjectLiterals /> */}
-      <BasicFunctions />
+      {/* <BasicFunctions /> */}
     </>
-  )
+  );
 }
 
-export default App
+export default App;
