@@ -1,15 +1,22 @@
-import React from "react";
+import type { User } from "../interfaces/reqres.response";
+interface Props {
+  user: User;
+}
 
-const UserRow = () => {
+const UserRow = ({ user }: Props) => {
   return (
-    <tr className="p-2">
+    <tr>
       <td>
-        <img src="" className="rounded-full w-14" alt="User Avatar" />
+        <img
+          src={user.avatar}
+          className="rounded-full w-14 p-2"
+          alt="User Avatar"
+        />
       </td>
       <td>
-        {"Danny"} {"Armijos"}
+        {user.first_name} {user.last_name}
       </td>
-      <td>{"danny@gmail.com"}</td>
+      <td>{user.email}</td>
     </tr>
   );
 };
