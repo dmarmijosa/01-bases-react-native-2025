@@ -1,5 +1,5 @@
 // import LoginPage from "./components/LoginPage";
-import UserPage from "./components/UserPage";
+// import UserPage from "./components/UserPage";
 import { AuthProvider } from "./context/AuthContext";
 
 function App() {
@@ -12,7 +12,7 @@ function App() {
         {/* <BasicFunctions /> */}
         {/* <Counter /> */}
         {/* <LoginPage /> */}
-        <UserPage />
+        {/* <UserPage /> */}
       </div>
     </AuthProvider>
   );
